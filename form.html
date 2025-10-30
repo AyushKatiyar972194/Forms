@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/submit-form" method="post">
+       <label for="name">Name:</label><br>
+       <input type="text" id="name" name="name" autofocus autocomplete="name"> <br>
+       <label for="RollNo">RollNo:</label><br>
+       <input type="number" id="RollNo" name="RollNo"><br>
+       <label for="email">Email:</label><br>
+       <input type="email" id="email" name="email"> <br>
+       <label for="subject">Choose Elective Subject:</label><br>
+       <select id="subject" name="subect">
+        <option value="subject">English</option>
+        <option value="subject">Computer</option>
+        <option value="subject">Maths</option>
+        <option value="subject">Science</option>
+       </select>
+       <label for="Category"></label>
+       <input type="radio" id="General" name="Category" value="General"> General
+       <input type="radio" id="OBC" name="Category" value="OBC"> OBC
+       <input type="radio" id="SC/ST" name="Category" value="SC/ST"> SC/ST <br>
+       <label for="Address">Address:</label><br>
+       <textarea name="Address" id="Address" cols="30" rows="10" placeholder="Enter Your Text Here"></textarea><br>
+       <input type="image" src="path/to/your/image.png" alt="Submit Form" name="submit_button">
+    </form>
+       
+       
+    </form>
+</body>
+</html>
